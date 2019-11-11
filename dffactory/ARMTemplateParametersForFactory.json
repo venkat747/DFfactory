@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dffactory"
+		},
+		"AzureSqlDatabase_Connector_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStore_Connector_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://dlakestore1.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStore_Connector_properties_typeProperties_tenant": {
+			"value": "63ce7d59-2f3e-42cd-a8cc-be764cff5eb6"
+		},
+		"AzureDataLakeStore_Connector_properties_typeProperties_subscriptionId": {
+			"value": "c3636551-e5ec-41fc-bea7-4750d9b17835"
+		},
+		"AzureDataLakeStore_Connector_properties_typeProperties_resourceGroupName": {
+			"value": "BasicRG"
+		}
+	}
+}
